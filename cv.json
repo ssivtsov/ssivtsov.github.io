@@ -1,7 +1,7 @@
 {
   "name": "Sergey Sivtsov",
   "title": "Senior Software Engineer",
-  "summary": "Highly-skilled and motivated developer with 8+ years of enterprise web application development. I'm interested to work with cutting-edge technologies and cloud solutions.",
+  "summary": "Senior Software Engineer with 10+ years of experience building enterprise web applications. Expertise in .NET ecosystem, modern JavaScript frameworks (React, Angular, Next.js), and cloud platforms (Azure, AWS). Passionate about clean code, scalable architecture, and delivering high-quality solutions.",
   "personalInfo": {
     "location": "Minsk, Belarus",
     "phone": "+375297425342",
@@ -24,53 +24,75 @@
   "skills": [
     "C#",
     "ASP.NET Core",
-    "Angular",
-    "gRPC",
+    "Azure",
+    "AWS",
+    "Next.js",
     "React.js",
+    "Angular",
+    "NestJS",
+    "gRPC",
     "Redux",
+    "TypeScript",
+    "Sequelize",
     "Dapper",
     "MS SQL",
     "PostgreSQL",
     "Docker",
-    "ASP.NET MVC",
-    "AngularJS",
-    "CSS",
     "SASS",
     "LINQ",
-    "MsTest",
-    "NUnit",
     "xUnit",
-    "ASP.NET",
-    "WCF",
-    "WinForms",
-    "ADO.NET"
+    "NUnit"
   ],
   "software": [
     "Visual Studio",
+    "Visual Studio Code",
     "Azure DevOps Server",
     "Git",
     "Postman",
-    "Webpack",
+    "Windsurf",
     "MS SQL Management Studio",
     "DBeaver",
     "PLSQL Developer"
   ],
   "skillsSummary": [
-    "Strong technical knowledge in design and implementation of enterprise applications based on .NET Framework",
-    "Good knowledge of modern development techniques, patterns and trends",
-    "Experienced in data ETL implementation",
-    "Experienced in working with Agile (Scrum) methodology",
-    "Experienced in working with Azure DevOps Server, configuring builds/deployments",
-    "Working knowledge on Cloud Platforms like Azure, AWS",
-    "Analytical, communication and problem-solving skills"
+    "Strong expertise in designing and implementing enterprise applications using .NET ecosystem",
+    "Proficient in modern development practices including TDD, CI/CD, and microservices architecture",
+    "Experienced in data ETL implementation and database optimization",
+    "Proven track record working with Agile (Scrum) methodology",
+    "Skilled in Azure DevOps for build automation and deployment pipelines",
+    "Hands-on experience with Azure and AWS cloud services",
+    "Strong analytical, communication, and problem-solving skills"
   ],
   "projectExpirience": [
     {
       "title": "Senior Software Engineer",
-      "company": "Ergalio/Silicon Mint",
+      "company": "Silicon Mint",
       "startDate": "2020-04",
       "endDate": "Present",
       "projects": [
+        {
+          "projectName": "Contractor at Second Nature",
+          "projectOverview": "A Resident Experience Platform for property management companies that provides managed resident benefits packages including renters insurance, credit building, air filter delivery, and pest control services.",
+          "position": "Full Stack Developer",
+          "teamSize": "7",
+          "duration": "0.5 years",
+          "responsibilities": [
+            "Developing new features for resident benefits platform",
+            "Implementing backend services and REST APIs for property management workflows",
+            "Building responsive UI components and integrating with third-party services",
+            "Collaborating with international team in Agile environment"
+          ],
+          "technologies": [
+            "Next.js",
+            "NestJS",
+            "Dapper",
+            "PostgreSQL",
+            "AWS S3",
+            "AWS SQS",
+            "AWS Lambda",
+            "AWS SES"
+          ]
+        },
         {
           "projectName": "Contractor at Elevate company",
           "projectOverview": "An innovative online credit solutions provide immediate relief to customers today and help them build a brighter financial future.",
@@ -78,11 +100,11 @@
           "teamSize": "5",
           "duration": "2 years",
           "responsibilities": [
-            "Code auditing, perfomance optimization",
-            "Developing of Azure Functions",
-            "Integration with Plaid (securely connection banks to the apps)",
-            "Configure build/release pipelines, setting up environments",
-            "Be a part of international team"
+            "Conducted code auditing and performance optimization",
+            "Developed serverless Azure Functions for business-critical workflows",
+            "Integrated with Plaid API for secure bank connections",
+            "Configured CI/CD pipelines and deployment environments",
+            "Collaborated with distributed international team"
           ],
           "technologies": [
             "ASP.NET Core",
@@ -142,6 +164,7 @@
       "company": "EPAM Systems",
       "startDate": "2014-05",
       "endDate": "2017-08",
+      "description": "Worked as a .NET Developer on enterprise applications for a major US insurance company. Developed and maintained web applications and desktop solutions using ASP.NET, WCF, WinForms and Oracle DB. Responsibilities included implementing business logic, creating integrations with partner systems, developing plugins for internal applications, and optimizing database operations. Technologies: ASP.NET, WCF, WinForms, ADO.NET, Oracle DB, DevExpress.",
       "projects": [
         {
           "projectName": "Concierge",
@@ -150,12 +173,12 @@
           "teamSize": "9",
           "duration": "1.2 years",
           "responsibilities": [
-            "Estimating tasks",
-            "Implementing of business logic of system components",
-            "Creating dynamic panels",
-            "Implementing of validation",
-            "Implementing of Direct Read/Write beetween partner systems",
-            "Developing  of modules to integrate application with other services"
+            "Estimated tasks and provided technical assessments",
+            "Implemented business logic for system components",
+            "Created dynamic UI panels with AJAX functionality",
+            "Developed validation mechanisms",
+            "Implemented Direct Read/Write integration between partner systems",
+            "Built modules to integrate application with external services"
           ],
           "technologies": [
             "ASP.NET",
@@ -172,15 +195,15 @@
           "teamSize": "6",
           "duration": "1.6 years",
           "responsibilities": [
-            "Estimating tasks, creating project plans",
-            "Implementing of business requirements",
-            "Developing optimized counting functionality for folders with records",
-            "Implementing of new email/reply/forward actions",
-            "Creating LDAP address book, IMAP collector",
-            "Adding support of embedded attachments to records",
-            "Developing of ownership functionality",
-            "Developing of plugins to integrate with other applications",
-            "Implementing backup mechanism to restore unsuccessfully uploaded records to the database based on Oracle Advanced Queuing. The database used to trigger different instances of services running under the load balancer to restore backuped records from the file system."
+            "Estimated tasks and created project plans",
+            "Implemented business requirements and core functionality",
+            "Developed optimized counting functionality for folder records",
+            "Implemented email reply/forward actions",
+            "Created LDAP address book and IMAP collector",
+            "Added support for embedded attachments",
+            "Developed ownership and access control functionality",
+            "Built plugins for integration with other applications",
+            "Implemented backup mechanism using Oracle Advanced Queuing for fault-tolerant record recovery across load-balanced services"
           ],
           "technologies": [
             "Win Forms",
@@ -219,7 +242,7 @@
     "name": "Belarusian-Russian University",
     "specialization": "Automated data processing and management",
     "degree": "Specialist",
-    "startDate": "2010 ",
+    "startDate": "2010",
     "endDate": "2015"
   }
 }
